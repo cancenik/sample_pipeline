@@ -1,0 +1,20 @@
+
+name: ribo
+channels:
+    - conda-forge               
+    - defaults                  
+    - bioconda                  
+dependencies:
+    - python=3.6
+    - samtools>=1.4
+    - sra-tools>=2.8.1
+    - fastqc
+    - setuptools 
+    - pip
+    - numpy 
+    - nose 
+    - bowtie2
+    - hisat2
+    - pysam
+    - bedtools
+    - cutadapt
